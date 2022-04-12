@@ -1,1 +1,10 @@
-# languages
+# Languages
+- Python
+- JavaScript
+- C
+- C++
+- Kotlin
+- Java
+- Dart
+- Julia
+- GO
