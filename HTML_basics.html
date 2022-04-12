@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <style></style>
+        <script></script>
+    </head>
+    <body>
+        <h1 class="title">Hello World</h1>
+        <hr /> <!-- horizontal row -->
+        <div>container</div>
+        <p>paragraph</p>
+        <br />  <!-- line break -->
+        <span>wraps inline elements for styling</span>
+
+        <img src="img.png" />
+
+        <a href="https://github.com/Petar1304" target="_blank">link to my github</a>
+
+        <!-- table -->
+        <table>
+            <thead> <!-- table head -->
+                <tr> <!-- table row -->
+                    <th>name</th> <!-- table header -->
+                    <th>age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Petar</td> <!-- table data -->
+                    <td>21</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <pre> <!-- show preformated text -->
+            indented
+        </pre>
+
+
+        <!-- defines a form for user input -->
+        <form action="/somewhere" method="post">
+            What is your name? 
+            <input type="text" name="" />
+
+            <div>
+                Gender:
+                <input type="radio" name="gender" />male
+                <input type="radio" name="gender" />female
+            </div>
+
+            <div>
+                favorite animal
+                <select>
+                    <option value="dog">dog</option>
+                    <option value="cat">cat</option>
+                </select>
+            </div>
+
+            <div>
+                Type a message:
+                <br />
+                <textarea name="message" id="message"></textarea>
+            </div>
+
+            <div>
+                CheckBox:
+                <input type="checkbox" />
+            </div>
+
+            <button type="submit">send data</button>
+            <button type="button" onClick="">do some action</button>
+
+        </form>
+
+    </body>
+</html>
