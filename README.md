@@ -3,6 +3,8 @@
 - JavaScript
 - C
 - C++
+- Matlab
+- Octave
 - Kotlin
 - Java
 - Dart
