@@ -17,6 +17,10 @@ contract TestContract{
 
     // function name(params) public/private/internal/external pure/view returns(types) {}
 
+    function sendMoney(address payable addr) external payable {
+        (bool sent, bytes memory data) = addr.call{value: 1 ether}("");
+    }
+
     function errors(int _num) public pure {
         // assert : If condition is false revert state changes (Uses up gas) 
         // require : If condition is false provides option to return message (Refunds Gas)
