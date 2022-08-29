@@ -10,3 +10,5 @@
 - Dart
 - Julia
 - GO
+- Rust
+- Solidity
